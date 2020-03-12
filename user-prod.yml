@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: prod
+  data:
+    mongodb:
+      uri: mongodb://172.16.51.35:27017/graduation
