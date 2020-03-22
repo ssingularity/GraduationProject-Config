@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      uri: mongodb://localhost/graduation
+  redis:
+    host: localhost
+custom:
+  kafka:
+    url: 121.43.40.151:9092
