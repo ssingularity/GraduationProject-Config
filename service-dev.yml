@@ -4,3 +4,5 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost/graduation
+  redis:
+    host: localhost
