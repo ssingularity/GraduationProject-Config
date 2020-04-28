@@ -8,4 +8,4 @@ spring:
     host: localhost
 custom:
   kafka:
-    url: 121.43.40.151:9092
+    url: 192.168.31.187:9092
