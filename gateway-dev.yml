@@ -1,6 +1,14 @@
 spring:
   cloud:
     gateway:
+      routes:
+      - id: log-web-socket
+        uri: lb:ws://log-service/websocket
+        predicates:
+        - Path=/websocket/**
+        filters:
+        - StripPrefix=1
+
       discovery:
         locator:
           enabled: true
